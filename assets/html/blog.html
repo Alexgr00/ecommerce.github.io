@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/el-planeta-tierra.png" type="image/x-icon">
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <!-- header section -->
+    <header class="header">
+
+        <a href="#home" class="logo"> <img src="../img/logo_floral_expressions.png" alt="logo"></a>
+    
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fa-solid fa-search"></label>
+        </form>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+            <div id="search-btn" class="fa-solid fa-search"></div>
+            <a href="./signIn&Up.html" target="_blank" class="fa-solid fa-user"></a>
+            <a href="../cart/products.html" class="fa-solid fa-shopping-cart"></a>
+        </div>
+    
+    </header>
+    
+    <!-- navbar section  -->
+    <nav class="navbar">
+        <div id="close-navbar" class="fa-solid fa-times"></div>
+        <a href="/index.html">home</a>
+        <a href="../cart/products.html">Products</a>
+        <a href="./about.html">About</a>
+        <a href="./blog.html">Blogs</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+    <!-- blog section -->
+    <section class="homeb" id="homeb">
+        <div class="home-text container">
+            <h2 class="home-title">Blogs</h2>
+            <span class="home-subtitle">Your source of great content</span>
+        </div>
+    </section>
+
+    <section class="aboutc containerc" id="aboutc">
+        <div class="contentBx">
+            <h2 class="titleText">Flowers, Gift, Plants & More</h2>
+            <p class="title-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos consequuntur voluptate dolorum totam provident ducimus cupiditate dolore doloribus repellat. Saepe ad fugit similique quis quam. Odio suscipit incidunt distinctio.
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis libero pariatur ipsum suscipit voluptates aut, repellendus quos dolor autem, natus laboriosam consectetur maxime cumque, sunt magni optio? Veritatis, ea?
+            </p>
+            <a href="#" class="btn2">Read more</a>
+        </div>
+        <div class="imgBx">
+            <img src="../blog/interior_design2.jpg" alt="about" class="fitBg">
+        </div>
+    </section>
+
+    <div class="post-filter containerc">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="gift">Gift & Tulip</span>
+        <span class="filter-item" data-filter="rose">Rose & Orchid</span>
+        <span class="filter-item" data-filter="bonsai">Bonsai & Succulents</span>
+    </div>
+
+    <div class="post containerc">
+        <!-- Post 1 -->
+        <div class="post-box gift">
+            <img src="../blog/bear.jpg" alt="gift" class="post-img">
+            <h2 class="category">Gift</h2>
+            <a href="#" class="post-title">Gift</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi2.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box gift">
+            <img src="../blog/img-2.jpg" alt="tulip" class="post-img">
+            <h2 class="category">Tulip</h2>
+            <a href="#" class="post-title">Tulip</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi1.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box gift">
+            <img src="../blog/bear2.png" alt="gift" class="post-img">
+            <h2 class="category">Gift</h2>
+            <a href="#" class="post-title">Gift</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi3.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box rose">
+            <img src="../blog/rose.jpg" alt="rose" class="post-img">
+            <h2 class="category">Rose</h2>
+            <a href="#" class="post-title">Rose</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi1.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box rose">
+            <img src="../blog/orchid5.jpg" alt="orchid" class="post-img">
+            <h2 class="category">Orchid</h2>
+            <a href="#" class="post-title">Orchid</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi2.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box rose">
+            <img src="../blog/rose1.jpg" alt="rose" class="post-img">
+            <h2 class="category">Rose</h2>
+            <a href="#" class="post-title">Rose</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi3.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box bonsai">
+            <img src="../blog/product20.png" alt="bonsai" class="post-img">
+            <h2 class="category">Bonsai</h2>
+            <a href="#" class="post-title">Bonsai</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi1.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 8 -->
+        <div class="post-box bonsai">
+            <img src="../blog/product1.jpg" alt="succulents" class="post-img">
+            <h2 class="category">Succulents</h2>
+            <a href="#" class="post-title">Succulents</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi2.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box bonsai">
+            <img src="../blog/product22.png" alt="bonsai" class="post-img">
+            <h2 class="category">Bonsai</h2>
+            <a href="#" class="post-title">Bonsai</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi3.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 10 -->
+        <div class="post-box gift">
+            <img src="../blog/img-1.jpg" alt="tulip" class="post-img">
+            <h2 class="category">Tulip</h2>
+            <a href="#" class="post-title">Tulip</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi3.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 11 -->
+        <div class="post-box rose">
+            <img src="../blog/orchid1.webp" alt="orchid" class="post-img">
+            <h2 class="category">Orchid</h2>
+            <a href="#" class="post-title">Orchid</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi2.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+        <!-- Post 12 -->
+        <div class="post-box bonsai">
+            <img src="../blog/product10.png" alt="succulents" class="post-img">
+            <h2 class="category">Succulents</h2>
+            <a href="#" class="post-title">Succulents</a>
+            <span class="post-date">12 Feb 2023</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="../blog/testi1.jpg" alt="test" class="profile-img">
+                <span class="profile-name">Floral</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="link" href="/index.html"> <i class="fa-solid fa-angle-right"></i> Home</a>
+                <a class="link" href="../cart/products.html"> <i class="fa-solid fa-angle-right"></i> Products</a>
+                <a class="link" href="./about.html"> <i class="fa-solid fa-angle-right"></i> About</a>
+                <a class="link" href="./blog.html"> <i class="fa-solid fa-angle-right"></i> Blogs</a>
+                <a class="link" href="./contact.html"> <i class="fa-solid fa-angle-right"></i> Contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#" class="link"> <i class="fa-solid fa-angle-right"></i> my order </a>
+                <a href="#" class="link"> <i class="fa-solid fa-angle-right"></i> my favorite </a>
+                <a href="#" class="link"> <i class="fa-solid fa-angle-right"></i> my wishlist </a>
+                <a href="#" class="link"> <i class="fa-solid fa-angle-right"></i> private policy </a>
+                <a href="#" class="link"> <i class="fa-solid fa-angle-right"></i> terms of use </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fa-solid fa-phone"></i> +1 234-567-8900 </p>
+                <p> <i class="fa-solid fa-phone"></i> +1 234-567-8901 </p>
+                <p> <i class="fa-solid fa-envelope"></i> example@example.com </p>
+                <p> <i class="fa-solid fa-map"></i> NY, NY - 456789 </p>
+                <div class="share">
+                    <a href="#" class="fa-brands fa-facebook-f"></a>
+                    <a href="#" class="fa-brands fa-twitter"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> created by <span>Alexgr00</span> | all rights reserved! </div>
+    
+    </section>
+    
+    <!-- Light gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- custom js file link      -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .lightbox'));
+    </script>
+
+</body>
+</html>
